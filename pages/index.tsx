@@ -1,5 +1,5 @@
 import { ChakraProvider, extendTheme } from "@chakra-ui/react";
-import { App } from "./App";
+import App from "./App";
 
 import "@fontsource/poppins";
 

@@ -10,10 +10,13 @@
     "@chakra-ui/react": "^2.8.0",
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
+    "@fontsource/poppins": "^5.0.8",
     "framer-motion": "^10.13.0",
     "next": "latest",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-icons": "^4.10.1",
+    "react-slick": "^0.29.0"
   },
   "devDependencies": {
     "@types/node": "20.4.2",

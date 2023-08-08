@@ -1,9 +1,9 @@
 import React from "react";
 import Header from "./Header";
-import { Welcome } from "./Welcome";
-import { AboutBJJ } from "./AboutBJJ";
+import Welcome from "./Welcome";
+import AboutBJJ from "./AboutBJJ";
 
-export const App = () => {
+export default function App() {
   return (
     <div>
       <Header></Header>
@@ -11,4 +11,4 @@ export const App = () => {
       <AboutBJJ></AboutBJJ>
     </div>
   );
-};
+}

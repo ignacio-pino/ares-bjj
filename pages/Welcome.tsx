@@ -11,7 +11,7 @@ import {
 import { FaArrowRight } from "react-icons/fa";
 import React from "react";
 
-export const Welcome = () => {
+export default function Welcome() {
   return (
     <Flex
       height={"95vh"}
@@ -61,4 +61,4 @@ export const Welcome = () => {
       </ScaleFade>
     </Flex>
   );
-};
+}

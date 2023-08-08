@@ -1,6 +1,6 @@
 import { Box, Button, ButtonGroup, Center, Flex, Img } from "@chakra-ui/react";
 import NextLink from "next/link";
-import { CustomButton } from "./components/Buttons";
+import HeaderButton from "./components/HeaderButton";
 
 const Header = () => {
   return (
@@ -25,8 +25,8 @@ const Header = () => {
         </Center>
 
         <ButtonGroup spacing={8} ml={"auto"} mr={"4rem"}>
-          <CustomButton>ARES</CustomButton>
-          <CustomButton>NOSOTROS</CustomButton>
+          <HeaderButton>ARES</HeaderButton>
+          <HeaderButton>NOSOTROS</HeaderButton>
           <Button
             colorScheme="blue"
             fontWeight={"bold"}

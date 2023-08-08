@@ -1,6 +1,8 @@
 import { Button } from "@chakra-ui/react";
 
-export const CustomButton = (props) => {
+import React from "react";
+
+export default function HeaderButton(props) {
   return (
     <Button
       color="white"
@@ -30,4 +32,4 @@ export const CustomButton = (props) => {
       {...props}
     />
   );
-};
+}

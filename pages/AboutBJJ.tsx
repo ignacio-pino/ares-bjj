@@ -11,7 +11,7 @@ import {
   SlideFade,
 } from "@chakra-ui/react";
 
-export const AboutBJJ = () => {
+export default function AboutBJJ() {
   return (
     <Grid
       height={"95vh"}
@@ -20,6 +20,7 @@ export const AboutBJJ = () => {
     >
       <GridItem>
         <SlideFade in={true}>
+          //
           <Img
             src="/assets/img/image9.jpeg"
             boxShadow="dark-lg"
@@ -90,4 +91,4 @@ export const AboutBJJ = () => {
       </GridItem>
     </Grid>
   );
-};
+}
